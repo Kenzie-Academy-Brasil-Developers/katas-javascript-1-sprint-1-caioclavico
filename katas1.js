@@ -1,6 +1,6 @@
 function oneThroughTwenty() {
    let retorno = [];
-   for (let counter = 0; counter <= 20; counter++) {
+   for (let counter = 1; counter <= 20; counter++) {
      retorno.push(counter);
    }
    return retorno;
@@ -10,7 +10,7 @@ function oneThroughTwenty() {
 
 function evensToTwenty() {
   let retorno = [];
-  for (let counter = 0; counter <=20; counter++) {
+  for (let counter = 1; counter <=20; counter++) {
     if (counter % 2 === 0) {
       retorno.push(counter);
     }
@@ -22,7 +22,7 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
   let retorno = [];
-  for (let counter = 0; counter <=20; counter++) {
+  for (let counter = 1; counter <=20; counter++) {
     if (counter % 2 !== 0) {
       retorno.push(counter);
     }
@@ -34,7 +34,7 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
   let retorno = [];
-  for (let counter = 0; counter <=100; counter++) {
+  for (let counter = 1; counter <=100; counter++) {
     if (counter % 5 === 0) {
       retorno.push(counter);
     }
@@ -57,7 +57,7 @@ function squareNumbers() {
 
 function countingBackwards() {
   let retorno = [];
-  for (let counter = 20; counter <= 20 && counter >= 0; counter--) {
+  for (let counter = 20; counter <= 20 && counter >= 1; counter--) {
     retorno.push(counter);
   }
   return retorno;
@@ -67,7 +67,7 @@ function countingBackwards() {
 
 function evenNumbersBackwards() {
   let retorno = [];
-  for (let counter = 20; counter <= 20 && counter >= 0; counter--) {
+  for (let counter = 20; counter <= 20 && counter >= 1; counter--) {
     if (counter % 2 === 0) {
       retorno.push(counter);
     }
@@ -79,7 +79,7 @@ function evenNumbersBackwards() {
 
 function oddNumbersBackwards() {
   let retorno = [];
-  for (let counter = 20; counter <= 20 && counter >= 0; counter--) {
+  for (let counter = 20; counter <= 20 && counter >= 1; counter--) {
     if (counter % 2 !== 0) {
       retorno.push(counter);
     }
@@ -91,7 +91,7 @@ function oddNumbersBackwards() {
 
 function multiplesOfFiveBackwards() {
   let retorno = [];
-  for (let counter = 100; counter <= 100 && counter >= 0; counter--) {
+  for (let counter = 100; counter <= 100 && counter >= 1; counter--) {
     if (counter % 5 === 0) {
       retorno.push(counter);
     }
@@ -103,7 +103,7 @@ function multiplesOfFiveBackwards() {
 
 function squareNumbersBackwards() {
   let retorno = [];
-  for (let counter = 10; counter <= 10 && counter >= 0; counter--) {
+  for (let counter = 10; counter <= 10 && counter >= 1; counter--) {
     let x = counter ** 2;
     retorno.push(x);
   } 
